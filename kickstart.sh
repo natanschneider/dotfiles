@@ -1,5 +1,4 @@
-sudo su
-pacman -Syyu
+#! /usr/bin/bash
 
 mkdir sources
 cd sources
@@ -8,21 +7,16 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ~
+yay -S gnome-themes-extra datagrip nvm nerd-fonts-inter code-git
 
-pacman -S bluez bluez-utils blueman base-devel git nvidia nvidia-utils
+sudo su
+pacman -S bluez bluez-utils blueman base-devel nvidia nvidia-utils
 systemctl enable bluetooth
 
 pacman -S xorg-server xorg-apps xorg-xinit i3-gaps i3blocks i3lock numlockx i3status ttf-dejavu
 pacman -S rxvt-unicode ranger rofi dmenu feh --needed
 
-pacman -S firefox vlc kitty zsh lxappearance vim neovim code lazygit ripgrep fd --needed
-yay -S gnome-themes-extra datagrip
-
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+pacman -S firefox vlc kitty zsh lxappearance vim neovim lazygit ripgrep fd --needed
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
@@ -37,8 +31,6 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
 pacman -S nodejs npm
-yay -S nvm nerd-fonts-inter
-
 nvm install node
 
 code --install-extension dbaeumer.vscode-eslint
@@ -79,5 +71,11 @@ code --install-extension mtxr.sqltools
 code --install-extension mtxr.sqltools-driver-pg
 code --install-extension mtxr.sqltools-driver-mysql
 code --install-extension Oracle.oracledevtools
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 reboot -h now
