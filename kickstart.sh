@@ -1,5 +1,7 @@
 #! /usr/bin/bash
 
+cd ~
+
 mkdir sources
 cd sources
 
