@@ -25,6 +25,17 @@ require("lazy").setup({
       },
     },
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+      "NeogitOrg/neogit",
+      dependencies = {
+        "nvim-lua/plenary.nvim",
+        "sindrets/diffview.nvim", -- Diff integration
+
+        "nvim-telescope/telescope.nvim",
+      },
+      config = true,
+    },
+
     -- import/override with your plugins
     { import = "plugins" },
   },
