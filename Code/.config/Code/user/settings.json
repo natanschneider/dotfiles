@@ -1,0 +1,147 @@
+{
+	"workbench.startupEditor": "newUntitledFile",
+	"vsicons.dontShowNewVersionMessage": true,
+	"workbench.sideBar.location": "right",
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14.5,
+	"editor.letterSpacing": 1.6,
+	"editor.lineHeight": 2,
+	"editor.smoothScrolling": true,
+	"editor.rulers": [80, 120],
+	"editor.wordWrap": "on",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 3,
+	"editor.detectIndentation": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairs": true,
+	"prettier.bracketSameLine": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"eslint.debug": true,
+	"eslint.format.enable": true,
+	"eslint.onIgnoredFiles": "warn",
+	"eslint.probe": ["javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue", "markdown", "next"],
+	"eslint.run": "onSave",
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"*.php": "php",
+		"*.sql": "sql"
+	},
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "php",
+		"html": "html"
+	},
+	"php.validate.executablePath": "",
+	"[php]": {
+		"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+	},
+	"[sql]": {
+		"breadcrumbs.showArrays": true,
+		"editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+	},
+	"git.openRepositoryInParentFolders": "never",
+	"[oraclesql]": {
+		"editor.suggest.showSnippets": true,
+		"editor.defaultFormatter": "Oracle.oracledevtools"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"workbench.iconTheme": "catppuccin-perfect-mocha",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"window.systemColorTheme": "dark",
+	"workbench.editor.wrapTabs": true,
+	"workbench.editor.pinnedTabSizing": "shrink",
+	"tabnine.experimentalAutoImports": true,
+	"tailwindcss-intellisense.trace.server": "verbose",
+	"[search-result]": {
+		"editor.lineNumbers": "on"
+	},
+	"Prettier-SQL.tabSizeOverride": 3,
+	"prettier.printWidth": 1000,
+	"prettier.tabWidth": 3,
+	"prettier.useTabs": true,
+	"vscode-pets.petSize": "medium",
+	"security.workspace.trust.banner": "always",
+	"telemetry.telemetryLevel": "off",
+	"editor.renderLineHighlight": "gutter",
+	"window.zoomLevel": -0.5,
+	"explorer.compactFolders": false,
+	"breadcrumbs.enabled": false,
+	"editor.minimap.autohide": true,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb"
+	},
+	"editor.indentSize": "tabSize",
+	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.editor.enablePreview": false,
+	"gitlens.views.branches.branches.layout": "list",
+	"settingsSync.ignoredExtensions": ["ms-dotnettools.vscode-dotnet-runtime", "GitLab.gitlab-workflow", "ms-vscode.powershell", "ms-vscode-remote.remote-wsl"],
+	"workbench.activityBar.location": "hidden",
+	"window.density.editorTabHeight": "compact",
+	"window.customTitleBarVisibility": "never",
+	"window.dialogStyle": "custom",
+	"inlineSQL.lintSQLFiles": true,
+	"totalTypeScript.hideAllTips": false,
+	"totalTypeScript.hideBasicTips": true,
+	"totalTypeScript.hiddenTips": ["passing-generics-to-types"],
+	"tailwindCSS.emmetCompletions": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"css.validate": false,
+	"tailwindCSS.experimental.classRegex": [
+		["Classes \\=([^;]*);", "'([^']*)'"],
+		["Classes \\=([^;]*);", "\"([^\"]*)\""],
+		["Classes \\=([^;]*);", "\\`([^\\`]*)\\`"]
+	],
+	"editor.lineNumbers": "relative",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"vim.useCtrlKeys": false,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["leader", "h"],
+			"commands": ["workbench.action.focusLeftGroup"]
+		},
+		{
+			"before": ["leader", "j"],
+			"commands": ["workbench.action.focusBelowGroup"]
+		},
+		{
+			"before": ["leader", "k"],
+			"commands": ["workbench.action.focusAboveGroup"]
+		},
+		{
+			"before": ["leader", "l"],
+			"commands": ["workbench.action.focusRightGroup"]
+		}
+	],
+	"vim.useSystemClipboard": true,
+	"vim.highlightedyank.enable": true,
+	"vim.easymotion": true,
+	"vim.surround": true,
+}
