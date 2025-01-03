@@ -1,9 +1,12 @@
 -- Dashboard
 
 return {
-  enabled = false,
+  enabled = true,
   'glepnir/dashboard-nvim',
   opts = {
+    dashboard = {
+      enabled = true
+    },
     theme = 'doom',
     config = {
       header = {
