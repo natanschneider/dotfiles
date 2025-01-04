@@ -133,3 +133,4 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+. "/home/natan/.deno/env"
