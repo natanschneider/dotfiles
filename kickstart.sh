@@ -17,7 +17,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ~
-yay -S gnome-themes-extra datagrip nvm nerd-fonts-inter code-git iwgtk
+yay -S gnome-themes-extra datagrip nvm nerd-fonts-inter code-git iwgtk ags-hyprpanel-git
 
 pacman -S 7z gzip unzip
 pacman -S php php-cli php-fpm php-cgi php-imagick php-memcache php-redis
