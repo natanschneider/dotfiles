@@ -37,3 +37,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
+cd dotfiles
+
+stow zsh
+stow wofi
+stow nvim
+stow hypr
+stow kitty
