@@ -1,7 +1,7 @@
 vim.opt.cmdheight = 0
-vim.opt.shiftwidth = 4
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 3
+vim.opt.tabstop = 3
+vim.opt.softtabstop = 3
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.number = true
