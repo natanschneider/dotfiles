@@ -136,3 +136,5 @@ function y() {
 . "/home/natan/.deno/env"
 
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
+. "$HOME/.local/bin/env"
