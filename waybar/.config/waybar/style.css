@@ -1,0 +1,97 @@
+@import "mocha.css";
+
+* {
+  font-family: JetBrainsMonoNF Nerd Font;
+  font-size: 12px;
+  min-height: 0;
+}
+
+#waybar {
+  background: @base;
+  color: @text;
+  margin: 5px 5px;
+}
+
+#workspaces {
+  margin: 5px;
+  background-color: @surface0;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power {
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: @blue;
+  margin-right: 1rem;
+}
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#pulseaudio {
+  color: @maroon;
+  margin-left: 1rem;
+}
+
+#custom-music {
+  color: @mauve;
+}
+
+#custom-lock {
+    color: @lavender;
+}
+
+#custom-power {
+    margin-right: 1rem;
+    color: @red;
+}
+
+#tray {
+  margin-right: 1rem;
+}
+
+#cpu,
+#memory,
+#network,
+#temperature {
+  background-color: @surface1;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
