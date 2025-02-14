@@ -7,6 +7,7 @@ return {
     'nvim-tree/nvim-web-devicons',
     'nvim-telescope/telescope-live-grep-args.nvim',
     'nvim-telescope/telescope-ui-select.nvim',
+    'junegunn/fzf.vim',
     { 'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release' },
   },
   keys = {
