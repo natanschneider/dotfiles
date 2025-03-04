@@ -159,6 +159,6 @@
     },
     "custom/power": {
         "format" : "⏻ ",
-        "exec": "wlogout"
+        "on-click": "wlogout"
     }
 }
