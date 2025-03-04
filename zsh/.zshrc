@@ -138,3 +138,8 @@ function y() {
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 . "$HOME/.local/bin/env"
+
+PATH="$PATH":"$HOME/.local/scripts/"
+
+bindkey -s ^f "tmux-sessionizer\n"
+
