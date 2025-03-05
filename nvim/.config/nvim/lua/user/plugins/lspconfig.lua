@@ -213,7 +213,7 @@ return {
 
     -- Diagnostic configuration
     vim.diagnostic.config({
-      virtual_text = false,
+      virtual_text = true,
       float = {
         source = true,
       }
