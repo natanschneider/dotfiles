@@ -136,5 +136,7 @@ PATH="$PATH":"$HOME/.local/scripts/"
 
 bindkey -s ^f "tmux-sessionizer\n"
 
+alias ls="eza --colour=always --icons=always -a --git --long --no-permissions --no-user --no-time"
+
 eval "$(starship init zsh)"
 
