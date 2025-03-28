@@ -16,7 +16,3 @@ staged = '[++\($count\)](green)'
 renamed = '👅 ${count} '
 deleted = '🗑 ${count} '
 
-[battery]
-threshold = 10
-format = "🔋 $percentage%"
-
