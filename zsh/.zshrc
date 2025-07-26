@@ -130,8 +130,8 @@ function y() {
 
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
-. "$HOME/.local/bin/env"
-
+PATH="$PATH":"$HOME/.local/bin/env"
+PATH="$PATH":"$HOME/.cargo/bin"
 PATH="$PATH":"$HOME/.local/scripts/"
 
 bindkey -s ^f "tmux-sessionizer\n"
@@ -140,3 +140,5 @@ alias ls="eza --colour=always --icons=always -a --git --long --no-permissions --
 
 eval "$(starship init zsh)"
 
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
