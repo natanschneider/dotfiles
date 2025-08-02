@@ -17,7 +17,7 @@ exec --no-startup-id picom
 #exec_always --no-startup-id killall polybar
 #exec_always --no-startup-id ~/dotfiles/launch_polybar.sh
 exec --no-startup-id polybar
-exec_always feh --bg-scale /home/natan/Downloads/wallpaper.jpeg
+exec_always feh --bg-scale /home/natan/Downloads/wallpaper.jpg
 bindsym $mod+space exec rofi -show combi
 
 # Font for window titles. Will also be used by the bar unless a different font
