@@ -142,3 +142,5 @@ eval "$(starship init zsh)"
 
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export PATH="/home/natan/.config/herd-lite/bin:$PATH"
+export PHP_INI_SCAN_DIR="/home/natan/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
