@@ -88,8 +88,8 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='nvim'
 # fi
 
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -126,7 +126,7 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
-. "/home/natan/.deno/env"
+# . "/home/natan/.deno/env"
 
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
@@ -141,6 +141,6 @@ alias ls="eza --colour=always --icons=always -a --git --long --no-permissions --
 eval "$(starship init zsh)"
 
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export PATH="/home/natan/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/natan/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
